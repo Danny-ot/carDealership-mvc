@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Danny Dealership(Car)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark text-white">
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <h1 class="text-center">Create Car</h1>
+            <form action="/cars" method="post">
+             <div class="form-group mt-2">
+                    <label for="name" class="form-label">Name Of Car:</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="model" class="form-label">Model:</label>
+                    <input type="text" class="form-control" id="model" name="model">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="price" class="form-label">Price:</label>
+                    <input type="number" class="form-control" id="price" name="price">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="color" class="form-label">Colour:</label>
+                    <input type="text" class="form-control" id="color" name="color">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="miles" class="form-label">Miles(in km/hr):</label>
+                    <input type="number" class="form-control" id="miles" name="miles">
+                </div>
+                <div class="text-center">
+                <button type="sumit" class="btn btn-light">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
